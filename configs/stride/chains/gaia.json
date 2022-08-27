@@ -1,16 +1,18 @@
 {
   "type": "cosmos",
   "value": {
-    "key": "rues",
+    "key": "wallet",
     "chain-id": "GAIA",
-    "rpc-addr": "http://38.242.159.74:23657",
+    "rpc-addr": "http://127.0.0.1:23657",
     "account-prefix": "cosmos",
     "keyring-backend": "test",
     "gas-adjustment": 1.2,
-    "gas-prices": "0.001uatom",
-    "debug": true,
+    "gas-prices": "0.000uatom",
+    "gas": 200000,
     "timeout": "20s",
+    "trusting-period": "8h",
     "output-format": "json",
     "sign-mode": "direct"
   }
 }
+
